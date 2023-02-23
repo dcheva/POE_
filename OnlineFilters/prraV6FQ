@@ -1,12 +1,12 @@
 #Online Item Filter
-#name:Luna RL-8.9.6a 1.30.sc
+#name:Luna RL-8.9.6a 1.40.sc
 #version:3.20.2
 #realm:pc
 #errors:
-#hash:b2bcc9fa03887552be6735da3dbff6f9
-#filterVersion:RL.8.9.6a.53.9.1.30
+#hash:ba4f3b3d42b7ba3588851f72e1c608b5
+#filterVersion:RL.8.9.6a.53.9.1.40
 #filterType:Ruthless
-#lastUpdate:2023-02-23T01:58:36Z
+#lastUpdate:2023-02-23T14:10:05Z
 #monthTimeStamp:1478
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
@@ -937,49 +937,51 @@ CustomAlertSound "d2/fanatasism.wav" 300
 #   [0502] Physical
 #------------------------------------
 
-# FilterBlade: Conditional Entry
+#--- FilterBlade: Conditional Entry < 80
 Show
 SetBorderColor 202 202 202 133
 SetFontSize 40
 ItemLevel >= 1
-Rarity Normal
-BaseType "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 ItemLevel <= 80
+Rarity Normal
+BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 SetBackgroundColor 115 98 75 122
 SetTextColor 255 255 255 193
 MinimapIcon 0 Grey Cross
 PlayEffect Grey
 CustomAlertSound "d2/ironmaiden.wav" 300
 
-# FilterBlade: Conditional Entry
-Show
-SetBorderColor 201 201 201 135
-SetFontSize 40
-ItemLevel >= 1
-Rarity Rare Unique
-BaseType "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
-SetTextColor 255 242 121 195
-SetBackgroundColor 115 98 75 123
-CustomAlertSound "d2/ironmaiden.wav" 300
-MinimapIcon 0 Yellow Cross
-PlayEffect Yellow
-ItemLevel <= 80
+#--- FilterBlade: Conditional Entry scepters
 
-# FilterBlade: Conditional Entry
+#--- FilterBlade: Conditional Entry < 80
 Show
 SetBorderColor 202 202 202 133
 SetFontSize 40
 ItemLevel >= 1
+ItemLevel <= 80
 Rarity Magic
 SetTextColor 130 130 255 255
 SetBackgroundColor 115 98 75 123
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 Blue Cross
 PlayEffect Blue
-BaseType "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
-ItemLevel <= 80
+BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
-# FilterBlade: Conditional Entry
+#--- FilterBlade: Conditional Entry < 80
+Show
+SetBorderColor 201 201 201 135
+SetFontSize 40
+ItemLevel >= 1
+ItemLevel <= 80
+Rarity Rare Unique
+BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+SetTextColor 255 242 121 195
+SetBackgroundColor 115 98 75 123
+CustomAlertSound "d2/ironmaiden.wav" 300
+MinimapIcon 0 Yellow Cross
+PlayEffect Yellow
+
+#--- FilterBlade: Conditional Entry > 80
 Show
 SetBorderColor 200 200 200 255
 SetFontSize 40
@@ -990,9 +992,9 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 White Cross
 PlayEffect White
-BaseType "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
-# FilterBlade: Conditional Entry
+#--- FilterBlade: Conditional Entry > 80
 Show
 SetBorderColor 202 202 202 255
 SetFontSize 40
@@ -1003,9 +1005,9 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 Blue Cross
 PlayEffect Blue
-BaseType "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
-# FilterBlade: Conditional Entry
+#--- FilterBlade: Conditional Entry > 80
 Show
 SetBorderColor 200 200 200 255
 SetFontSize 40
@@ -1016,8 +1018,11 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 Yellow Cross
 PlayEffect Yellow
-BaseType "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
+#-/- FilterBlade: Conditional Entry scepters
+
+# FilterBlade: Conditional Entry
 Show # $type->rareid $tier->weapon_phys
 	Identified True
 	DropLevel >= 55
@@ -1502,15 +1507,11 @@ Show # %D5 $type->rareid $tier->body_es
 CustomAlertSound "d2/fanatasism.wav" 300
 
 #------------------------------------
-#   [0515] Belts
+#   [0515+] Belts
 #------------------------------------
 
 Show # %D5 $type->rareid $tier->belt_general
-	Identified True
-	Rarity Rare
 	Class == "Belts"
-	HasExplicitMod "of the Underground" "Subterranean" "Guatelitzi's" "Fecund" "Athlete's" "Dazzling" "Devastating" "Magnifying" "of Reveling" "Blue" "of the Godslayer"
-	HasExplicitMod >=4 "of the Underground" "Subterranean" "Guatelitzi's" "Fecund" "Athlete's" "Virile" "Dazzling" "Resplendent" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of Tzteosh" "of the Magma" "of the Volcano" "of Haast" "of the Ice" "of the Polar Bear" "of Ephij" "of the Lightning" "of the Maelstrom" "of Bameth" "of Exile" "of Expulsion" "of Recuperation" "Enveloped" "Encased" "Carapaced" "Magnifying" "Condensing" "of Reveling" "of Relishing" "Devastating" "Overpowering" "Unleashed" "Blue" "Mazarine" "of the Essence" "Essences" "Veiled" "of the Veil"
 	SetFontSize 42
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
