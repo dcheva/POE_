@@ -1,12 +1,12 @@
 #Online Item Filter
-#name:Luna RL-8.9.6a 1.40.sc
+#name:Luna RL-8.9.6a 1.41.sc
 #version:3.20.2
 #realm:pc
 #errors:
-#hash:ba4f3b3d42b7ba3588851f72e1c608b5
-#filterVersion:RL.8.9.6a.53.9.1.40
+#hash:ddba63dac02e9bba7818949f8603cdc8
+#filterVersion:RL.8.9.6a.53.9.1.41
 #filterType:Ruthless
-#lastUpdate:2023-02-23T14:10:05Z
+#lastUpdate:2023-02-23T21:36:09Z
 #monthTimeStamp:1478
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
@@ -944,7 +944,7 @@ SetFontSize 40
 ItemLevel >= 1
 ItemLevel <= 80
 Rarity Normal
-BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 SetBackgroundColor 115 98 75 122
 SetTextColor 255 255 255 193
 MinimapIcon 0 Grey Cross
@@ -965,7 +965,7 @@ SetBackgroundColor 115 98 75 123
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 Blue Cross
 PlayEffect Blue
-BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #--- FilterBlade: Conditional Entry < 80
 Show
@@ -974,7 +974,7 @@ SetFontSize 40
 ItemLevel >= 1
 ItemLevel <= 80
 Rarity Rare Unique
-BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 SetTextColor 255 242 121 195
 SetBackgroundColor 115 98 75 123
 CustomAlertSound "d2/ironmaiden.wav" 300
@@ -992,7 +992,7 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 White Cross
 PlayEffect White
-BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #--- FilterBlade: Conditional Entry > 80
 Show
@@ -1005,7 +1005,7 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 Blue Cross
 PlayEffect Blue
-BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #--- FilterBlade: Conditional Entry > 80
 Show
@@ -1018,7 +1018,7 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 Yellow Cross
 PlayEffect Yellow
-BaseType "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #-/- FilterBlade: Conditional Entry scepters
 
