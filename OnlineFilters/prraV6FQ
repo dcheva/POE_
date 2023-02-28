@@ -1,12 +1,12 @@
 #Online Item Filter
-#name:Luna RL-8.9.6a 1.90.sc
+#name:Luna RL-8.9.6a 1.91.sc
 #version:3.20.2
 #realm:pc
 #errors:
-#hash:3a3346fc419824b430b836f34a690fdb
-#filterVersion:RL.8.9.6a.53.9.1.90
+#hash:e677cbb884de1b677ddabb0449ea4a69
+#filterVersion:RL.8.9.6a.53.9.1.91
 #filterType:Ruthless
-#lastUpdate:2023-02-27T02:42:20Z
+#lastUpdate:2023-02-27T21:23:01Z
 #monthTimeStamp:1478
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
@@ -946,7 +946,7 @@ SetFontSize 40
 ItemLevel >= 1
 ItemLevel <= 80
 Rarity Normal
-BaseType "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Karui Sceptre" "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 SetBackgroundColor 115 98 75 122
 SetTextColor 255 255 255 193
 MinimapIcon 0 Grey Cross
@@ -965,7 +965,7 @@ SetBackgroundColor 115 98 75 123
 CustomAlertSound "d2/ironmaiden.wav" 300
 MinimapIcon 0 Blue Cross
 PlayEffect Blue
-BaseType "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Karui Sceptre" "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #--- FilterBlade: Conditional Entry < 80
 Show
@@ -974,7 +974,7 @@ SetFontSize 40
 ItemLevel >= 1
 ItemLevel <= 80
 Rarity Rare Unique
-BaseType "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Karui Sceptre" "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 SetTextColor 255 242 121 195
 SetBackgroundColor 115 98 75 123
 CustomAlertSound "d2/ironmaiden.wav" 300
@@ -992,7 +992,7 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/thorns.wav" 300
 MinimapIcon 0 White Cross
 PlayEffect White
-BaseType "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Karui Sceptre" "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #--- FilterBlade: Conditional Entry > 80
 Show
@@ -1005,7 +1005,7 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/thorns.wav" 300
 MinimapIcon 0 Blue Cross
 PlayEffect Blue
-BaseType "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Karui Sceptre" "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #--- FilterBlade: Conditional Entry > 80
 Show
@@ -1018,7 +1018,7 @@ SetBackgroundColor 115 98 75 255
 CustomAlertSound "d2/thorns.wav" 300
 MinimapIcon 0 Yellow Cross
 PlayEffect Yellow
-BaseType "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
+BaseType "Karui Sceptre" "Carnal Sceptre" "Abyssal Sceptre" "Blood Sceptre" "Crystal Sceptre" "Shadow Sceptre" "Quartz Sceptre" "Bronze Sceptre" "Opal Sceptre" "Alternating Sceptre" "Oscillating Sceptre" "Stabilising Sceptre" "Void Sceptre"
 
 #-/- FilterBlade: Conditional Entry scepters
 
