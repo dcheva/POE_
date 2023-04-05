@@ -3,15 +3,15 @@
 #version:3.20.2d
 #realm:pc
 #errors:
-#hash:a36b1245a8366d91b4059148f62149f9
-#filterVersion:8.9.6a.2023.95.9
+#hash:026ff141d1747630c07f3126f1440be2
+#filterVersion:8.9.6a.2023.95.13
 #filterType:Normal
-#lastUpdate:2023-04-05T09:10:32Z
+#lastUpdate:2023-04-05T13:10:25Z
 #monthTimeStamp:1480
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
-# VERSION:  8.9.6a.2023.95.9
+# VERSION:  8.9.6a.2023.95.13
 # TYPE:     3-STRICT
 # STYLE:    DEFAULT
 # AUTHOR:   NeverSink
